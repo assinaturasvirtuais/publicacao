@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Tabela Name="SGP Hidrato - Email" Mapper="Lynx.HydroHidrato.Portal.Model.TableModel.Email">
+  <Colunas>
+    <Coluna Name="ID" Type="Guid" Mapper="ID" PrimaryKey="true"/>
+    <Coluna Name="Email" Type="String" Mapper="TextEmail" PrimaryKey="false"/>
+	  <Coluna Name="Área" Type="String" Mapper="Area" PrimaryKey="false"/>
+	  <Coluna Name="Disciplina" Type="String" Mapper="Discipline" PrimaryKey="false"/>
+    <Coluna Name="Deletado" Type="Boolean" Mapper="Delete" PrimaryKey="false"/>
+	  <Coluna Name="ApontamentoInicial" Type="Boolean" Mapper="PointInitial" PrimaryKey="false"/>
+    <Coluna Name="Detalhamento" Type="Boolean" Mapper="Detail" PrimaryKey="false"/>    
+	  <Coluna Name="Final" Type="Boolean" Mapper="Final" PrimaryKey="false"/>
+  </Colunas>
+</Tabela>

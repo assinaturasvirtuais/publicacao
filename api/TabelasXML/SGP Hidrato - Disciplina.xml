@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tabela Name="SGP Hidrato - Disciplina" Mapper="Lynx.HydroHidrato.Model.Discipline">
+  <Colunas>
+    <Coluna Name="ID" Type="Guid" Mapper="ID" PrimaryKey="true"/>
+    <Coluna Name="Nome" Type="String" Mapper="Name" PrimaryKey="false"/>
+	  <Coluna Name="Tipo Detalhamento" Type="String" Mapper="TypeDetail" PrimaryKey="false"/>
+    <Coluna Name="Deletado" Type="Boolean" Mapper="Delete" PrimaryKey="false"/>
+  </Colunas>
+</Tabela>
