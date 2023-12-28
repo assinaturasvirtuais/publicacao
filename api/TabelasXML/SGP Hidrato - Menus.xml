@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Tabela Name="SGP Hidrato - Menus" Mapper="Lynx.HydroHidrato.Portal.Model.AssetMonitoringSytem.MenuAF">
-	<Colunas>
-		<Coluna Name="IDItem" Type="Guid" Mapper="IDItem" PrimaryKey="true" />
-		<Coluna Name="Nome" Type="String" Mapper="Name" PrimaryKey="false"/>
-		<Coluna Name="TipoItem" Type="String" Mapper="TypeItem" PrimaryKey="false"/>
-		<Coluna Name="Deletado" Type="Boolean" Mapper="Delete" PrimaryKey="false"/>
-	</Colunas>
-</Tabela>
